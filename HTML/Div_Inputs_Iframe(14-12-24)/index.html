@@ -3,83 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Table</title>
   </head>
   <body>
-    <h1>HTML Forms</h1>
+    <!-- Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Zeeshan</td>
+          <td>uu</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td colspan="2" style="text-align: center">Rajesh</td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: center">4</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td rowspan="2">ahmad</td>
+          <td>Alok</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <!-- <td>Ali</td> -->
+          <td>Alok</td>
+        </tr>
+      </tbody>
 
-    <form>
-      <label for="userName">Name*</label>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th></th>
+          <th>400</th>
+        </tr>
+      </tfoot>
+    </table>
 
+    <!-- Inputs Starts From Here -->
+    <input type="text" placeholder="Enter your Name" />
+    <input type="email" placeholder="Enter your email" />
+    <input type="date" />
+    <input type="datetime-local" />
+    <input type="month" />
+    <input type="week" />
+    <input type="checkbox" />
+    <input type="radio" />
+    <input type="number" min="5" max="100" />
+    <input type="file" />
+    <input type="color" />
+    <input type="range" />
+    <input type="time" />
+    <input type="url" />
+    <!-- Uncontanerized Code -->
+    <form action="">
+      <label for="username">Name*:</label>
       <input
         type="text"
-        placeholder="Enter your name"
-        class="username"
-        name="userName"
-        minlength="3"
-        maxlength="50"
+        name="username"
+        id="username"
+        placeholder="Enter your Name"
         required
       />
-
-      <label for="password">Password*</label>
+      <label for="useremail">Email*:</label>
       <input
-        type="password"
-        placeholder="Enter your password"
-        class="password"
-        name="password"
-        minlength="3"
+        type="email"
+        name="useremail"
+        id="useremail"
+        placeholder="Enter your email"
         required
       />
-
-      <label for="age">Age*</label>
-      <input
-        type="number"
-        placeholder="Enter your age"
-        class="age"
-        name="age"
-        min="7"
-        max="100"
-        required
-      />
-
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="" value="male" />
-
-      <label for="female">FeMale</label>
-      <input type="radio" name="gender" id="" value="female" />
-
-      <textarea
-        name="message"
-        id="message"
-        placeholder="Enter message"
-        cols="50"
-        role="10"
-      ></textarea>
-
-      <select name="education" id="" required>
-        <option value="">--Select Education--</option>
-        <option value="10">Matric</option>
-        <option value="fsc">FSC</option>
-        <option value="cambridge">O/A Levels</option>
-        <option value="university">University</option>
-      </select>
 
       <button type="submit">Submit</button>
     </form>
 
-    <input type="email" placeholder="email" />
-    <input type="file" />
-    <input type="datetime-local" />
-    <input type="number" />
-    <input type="radio" />
-    <input type="radio" />
-    <input type="radio" />
-    <input type="radio" />
-    <input type="checkbox" />
-    <input type="checkbox" />
-    <input type="color" />
-    <input type="tel" />
-    <input type="url" />
-    <input type="week" />
+    <!-- Containerized Code -->
+    <form>
+      <div>
+        <div>
+          <label for="username">Name*:</label>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your Name"
+            required
+          />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="useremail">Email*:</label>
+        </div>
+        <div>
+          <input
+            type="email"
+            name="useremail"
+            id="useremail"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+      </div>
+
+      <div>
+        <textarea name="message" id="" rows="5" cols="50" required></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
