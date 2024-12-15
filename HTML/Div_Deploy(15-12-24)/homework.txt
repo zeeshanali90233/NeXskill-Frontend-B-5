@@ -2,3 +2,12 @@
 
 2) Deploy your website on netlify and share link
 
+3) Make Linkedin, Upload your picture, use appropriate banner 
+
+4) Fill Respective Details here: https://rahuldkjain.github.io/gh-profile-readme-generator/ , and gemerate Readme
+
+then make a public reposotory on github.com having name same to your user name, in that repository there will be ReadMe File,
+Just click on it and click on the pencil icon for edit and paste the copied readme there and commit changes, 
+
+5) Practive Javascript , console.log, alerts, variables, equation solving
+

@@ -1,0 +1,8 @@
+History Introduction
+
+1) console.log
+2) alerts
+3) variables
+4) variables datatypes
+5) declaring, initializing
+6) equation computation
