@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>Hi Hello</div>
+
+    <script>
+      //   alert("Hello");
+      let age = 17;
+      console.log(age);
+
+      if (age >= 18) {
+        console.log("Yeah , You are 18");
+      } else {
+        console.log("Nope , You are not 18");
+      }
+
+      let carType = "ELECTRIC";
+
+      if (carType == "HUV") {
+        console.log("Your car is a HUV");
+      } else if (carType == "SEDAN") {
+        console.log("Your car is a SEDAN");
+      } else if (carType == "MINI") {
+        console.log("Your car is a MINI");
+      } else {
+        console.log("Your car type is not recognized");
+      }
+
+      //   Loops
+
+      for (let i = 1; i <= 100; i = i + 2) {
+        console.log(i);
+      }
+
+      //   100>=1 T
+      //   99>=1 T
+      //   1>=1 T
+      //   0>=1 F
+      for (let i = 100; i >= 1; i = i - 5) {
+        console.log(i);
+      }
+
+      //    for (let i = 1; i <= 100; i = i + 2) {
+      // console.log(i);
+      //   }
+      //   While Loop
+      let i = 1;
+      while (i <= 100) {
+        console.log(i);
+        i = i + 2;
+      }
+
+      i = 1;
+      do {
+        console.log(i);
+        i = i + 2;
+      } while (i < 1);
+
+      let option = prompt("Enter Option Number");
+      //   String to Number: Type Casting Number
+      option = Number(option);
+      console.log(option);
+      console.log(typeof option);
+
+      while (option > 4) {
+        console.log("Invalid Option");
+        option = prompt("Enter Option Number");
+        option = Number(option);
+      }
+
+      if (option === 4) {
+        console.log("GoodF");
+      }
+    </script>
+  </body>
+</html>
