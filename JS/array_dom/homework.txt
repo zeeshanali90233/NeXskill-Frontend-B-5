@@ -1,0 +1,24 @@
+    1. Objects: Library System
+        Task: Create a simple object that represents a book in a library.
+        The object should have the following properties: title, author, year, and available (true/false).
+        Create a function borrowBook that marks the book as unavailable and a function returnBook that marks it as available.
+        Print out the book's details before and after borrowing/returning it.
+        Hint: Use object methods to define borrowBook and returnBook.
+        
+    2. Arrays & Loops: Student Management
+    Task: Create an array of objects where each object represents a student.
+        Each student object should have properties: name, age, and grade.
+        Write a function getTopStudents that filters and returns the students who have a grade of 85 or higher.
+        Write a function averageGrade that calculates and returns the average grade of all students.
+        Test the functions by creating an array of 5 students with different grades and printing the top students and the average grade.
+        Hint: Use array methods like filter and reduce for filtering and calculating the average.
+    
+    3. Input Value and DOM Interaction (Without Editing Values Inside a Div):
+    Task: Create a form that updates input fields to display a user's entered data.
+        Details:
+        Create a form with "Name" and "Email" fields and a "Submit" button.
+        When submitted, display the entered name and email inside two pre-existing static <span> elements, placed next to corresponding labels.
+        Prevent form submission from refreshing the page.
+        Key Concepts: input.value, event.preventDefault(), targeting specific DOM elements using getElementById().
+
+    4. COnvert all above code in modular way, like making functions aadding comments
