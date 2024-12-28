@@ -2,7 +2,7 @@
 
 ## Batch - 5
 
-## Company: NeXskill Arfa Tower Main Branch
+## Company: NeXskill Arfa Tower Main Branch, Lahore Pakistan &#127477;
 
 Welcome to the **Frontend Development with AI Chatbot Course**! This course is designed to help beginners build a strong foundation in frontend web development and AI chatbot creation using APIs like ChatGPT, Gemini, Phind, and Claude LLM. Over 16 lectures, you'll master the essentials of HTML, CSS, JavaScript, version control using Git and GitHub, and gain hands-on experience with AI chatbot integration.
 
@@ -13,7 +13,7 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
 | Topic            | Lectures |
 | ---------------- | -------- |
 | **HTML**         | 4        |
-| **Git & GitHub** | 2        |
+| **Git & GitHub** | Lec 3-16 |
 | **JavaScript**   | 6        |
 | **CSS**          | 6        |
 
@@ -40,6 +40,7 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
 
 - Introduction to Git: Version Control Basics
 - Collaborating with GitHub: Pushing, Pulling, and Merging
+- Usability of Github Desktop Application: (Pushing, Pulling, and Merging) using UI
 
 ### **3. JavaScript (JS)**
 
@@ -58,6 +59,7 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
 - Responsive Design with Media Queries
 - Animations and Transitions
 - CSS Best Practices and Optimization
+- Youtube/Spotify/Netflix Clone
 
 ### **5. AI Chatbots**
 
@@ -65,8 +67,8 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
 - Overview of Popular LLM APIs (ChatGPT, Gemini, Phind, Claude LLM)
 - Setting Up API Keys and Authentication
 - Creating Basic Chatbot Features
-- Enhancing Chatbots with Advanced Functionalities
-- Debugging and Deploying AI Chatbots
+- Enhancing Chatbots with Advanced Functionalities(Contexts)
+- Integrating with Frontend
 
 ---
 
@@ -75,11 +77,10 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
 **Name**: Zeeshan Ali  
 **Role**: Software Engineer, Web Instructor  
 **Experience**:
-
 - Rector's Merit Academic Award Holder (UMT)
 - Expertise in **MERN, FERN, Next.js TypeScript, React Native, Dapps, GraphQL, and cloud technologies**
 - Certifications in **Amazon EBS, Foundational Generative AI, Responsible AI, and Google Cloud Essentials**
-- Industry experience in **web/mobile apps** and **cloud technologies**
+- Industry experience in **web/mobile apps**, **cloud native technologies**, **Dapps** and **Multilingual AI Agents** 
 
 **LinkedIn**: [Zeeshan Ali](https://www.linkedin.com/in/zeeshanali90233)  
 **GitHub**: [zeeshanali90233](https://github.com/zeeshanali90233)
@@ -103,10 +104,11 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
    - Code Editor: [VS Code](https://code.visualstudio.com/)
    - Browser: [Google Chrome](https://www.google.com/chrome/)
    - Git: [Install Git](https://git-scm.com/)
-   - API Clients: [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/)
+   - Github Desktop: [Install Github Desktop](https://desktop.github.com/download/)
+   - API Clients: [ThunderClient VS Code Extension](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 ---
 
 ## 📝 Contact & Support
 
-For any questions, feel free to reach out to the instructor at **zeeshan.ali@p2pclouds.com**.
+For any questions, feel free to reach out me at any social platform plus through email **zeeshanali90233@gmail.com**.
