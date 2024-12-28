@@ -15,3 +15,8 @@
     
 
     4. COnvert all above code in modular way, like making functions aadding comments
+
+-- Saturday New Homework
+
+1) Make a form taking cityName also submit that form and show dummy result on HTML that weather is this and this
+2) Make a toggle theme functionality , change it automatically after every 15 secs.
