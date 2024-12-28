@@ -2,7 +2,7 @@
 
 ## Batch - 5
 
-## Company: NeXskill Arfa Tower Main Branch, Lahore Pakistan #01411C
+## Company: NeXskill Arfa Tower Main Branch, Lahore Pakistan
 
 Welcome to the **Frontend Development with AI Chatbot Course**! This course is designed to help beginners build a strong foundation in frontend web development and AI chatbot creation using APIs like ChatGPT, Gemini, Phind, and Claude LLM. Over 16 lectures, you'll master the essentials of HTML, CSS, JavaScript, version control using Git and GitHub, and gain hands-on experience with AI chatbot integration.
 
@@ -114,11 +114,11 @@ git clone https://github.com/zeeshanali90233/NeXskill-Frontend-B-5.git
 
 ---
 
-## 🚀 Helping Material
+## 📖 Helping Material
 
 1. **Consult Books**: Refer to John Duckett's "HTML & CSS" and Svekis's "JavaScript: Beginner to Professional" books for foundational knowledge.
 2. **Documentation & AI Help**: Utilize AI tools like ChatGPT, Phind, Gemini, and online documentation resources for assistance. They are just a search away!
-3. **YouTube Channel**: Explore additional helping content videos on my [YouTube Channel](https://www.youtube.com/@learnwithaliengineer) to reinforce your learning.
+3. **YouTube Channel**: Explore additional helping content videos on my [Learn With Ali Engineer](https://www.youtube.com/@learnwithaliengineer) to reinforce your learning.
 
 ---
 
