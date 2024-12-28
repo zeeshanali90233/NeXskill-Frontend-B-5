@@ -44,9 +44,10 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
 
 ### **3. JavaScript (JS)**
 
-- JavaScript Fundamentals: Variables, Data Types, and Operators
+- JavaScript Fundamentals: Variables, Data Types, Naming Conventions, and Operators
 - Functions, Loops, and Conditionals
 - DOM Manipulation
+- API Calling ang Asynchronous Architecture 
 - Events and Event Handling
 - Introduction to ES6 Features
 - Debugging & Best Practices
@@ -106,6 +107,10 @@ Welcome to the **Frontend Development with AI Chatbot Course**! This course is d
    - Git: [Install Git](https://git-scm.com/)
    - Github Desktop: [Install Github Desktop](https://desktop.github.com/download/)
    - API Clients: [ThunderClient VS Code Extension](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+3. **Code**: Take updated code by downloading this Repository as a zip or run the following command in CMD if Git is installed successfully.
+```bash
+git clone https://github.com/zeeshanali90233/NeXskill-Frontend-B-5.git
+```
 
 ---
 
