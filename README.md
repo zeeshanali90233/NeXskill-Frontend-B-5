@@ -1,6 +1,10 @@
-# 2-Month Frontend Development Course
+# Frontend Development with AI Chatbot Course
 
-Welcome to the **2-Month Frontend Development Course**! This course is designed to help beginners build a strong foundation in frontend web development. Over 16 lectures, you'll learn the essentials of HTML, CSS, JavaScript, and version control using Git and GitHub.
+## Batch - 5
+
+## Company: NeXskill Arfa Tower Main Branch
+
+Welcome to the **Frontend Development with AI Chatbot Course**! This course is designed to help beginners build a strong foundation in frontend web development and AI chatbot creation using APIs like ChatGPT, Gemini, Phind, and Claude LLM. Over 16 lectures, you'll master the essentials of HTML, CSS, JavaScript, version control using Git and GitHub, and gain hands-on experience with AI chatbot integration.
 
 ---
 
@@ -19,6 +23,7 @@ Welcome to the **2-Month Frontend Development Course**! This course is designed 
 - **CSS**: Style your web pages with modern layouts, animations, and responsive design.
 - **JavaScript**: Add interactivity and functionality to your web projects.
 - **Git & GitHub**: Master version control to track changes and collaborate effectively.
+- **AI Chatbots**: Learn to integrate APIs like ChatGPT, Gemini, Phind, and Claude LLM to create intelligent chatbots.
 
 ---
 
@@ -54,6 +59,15 @@ Welcome to the **2-Month Frontend Development Course**! This course is designed 
 - Animations and Transitions
 - CSS Best Practices and Optimization
 
+### **5. AI Chatbots**
+
+- Introduction to AI and Chatbots
+- Overview of Popular LLM APIs (ChatGPT, Gemini, Phind, Claude LLM)
+- Setting Up API Keys and Authentication
+- Creating Basic Chatbot Features
+- Enhancing Chatbots with Advanced Functionalities
+- Debugging and Deploying AI Chatbots
+
 ---
 
 ## 👩‍🏫 Instructor Profile
@@ -77,6 +91,7 @@ Welcome to the **2-Month Frontend Development Course**! This course is designed 
 - Hands-on practice assignments.
 - Real-world projects to build a portfolio.
 - Collaborative learning with Git and GitHub.
+- Integration of AI APIs for chatbot creation.
 - Professional tips and industry best practices.
 
 ---
@@ -88,6 +103,7 @@ Welcome to the **2-Month Frontend Development Course**! This course is designed 
    - Code Editor: [VS Code](https://code.visualstudio.com/)
    - Browser: [Google Chrome](https://www.google.com/chrome/)
    - Git: [Install Git](https://git-scm.com/)
+   - API Clients: [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/)
 
 ---
 
