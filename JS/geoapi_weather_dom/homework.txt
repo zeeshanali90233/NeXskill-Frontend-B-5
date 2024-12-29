@@ -1,4 +1,14 @@
-1) Make two button on your site by name , Start and Stop 
+1) Make a complete Weather app, that show, temperature celcius, fahrenheit, wind speed, isSunny , humidity, etc
+also show current city, region, country, timezone
+apply this function using async await also without async await using them catch
 
-When Click on Start , user audio and video should be shown on Screen( 1280 by 720)
-and when click on stop, this play should be stopped and vice varsa
+2) Make atleast 10 examples of promises, also handle it with then catch
+
+3) Prepare a strong understanding on API, Promises, Fetch from Internet plus svekis book, because you will be asked questions. If found any wrong...
+
+4) Also study before coming to session about Large Language Models LLM, what are they how they are made and why they are used and examples.
+
+5) Also study before coming to session about Javascript object notation JSON, what are they how they are made and why they are used and examples.
+atlead give 5 examples
+also learn how to convert a normal text/object into json. Hint JSON.stringify and for reverse
+JSON to Normal: JSON.parse

@@ -1,11 +1,9 @@
 
-
-1) Geo Location API's and Media API's
-2) Weather app
-3) DOM 
-4) NPM Packages & CDN
-5) Promises
-6) Promise Then, Catch, Finally
+1) Weather app
+2) Fetch 
+3) Async Architecture 
+4) Promises
+5) Promise Then, Catch, Finally
 
 REST API 
 
