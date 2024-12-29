@@ -1,4 +1,0 @@
-- Toggle Theme, using State Persistance 
-- Local Storage
-- SetTimeout
-- SetInterval
