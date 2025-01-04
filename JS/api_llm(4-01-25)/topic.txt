@@ -11,4 +11,6 @@ Test API's
 Get Instagram Posts: https://p2pclouds.up.railway.app/v1/learn/get_instagram_posts
 Post: Tweet Save: https://p2pclouds.up.railway.app/v1/learn/tweet/save    { tweetImage, tweetDescription }
 Delete Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/delete  tweetId
-Update Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/update  { tweetId, tweetImage, tweetDescription }
+Put Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/update  { tweetId, tweetImage, tweetDescription }
+
+Get -> To get data and we can't send 
