@@ -1,0 +1,17 @@
+1) Login Validation
+Write a function to check if a user can log in. Ensure the username is not empty and the password is at least 8 characters long. If both conditions are met, the login is successful.
+
+2) Discount Eligibility
+Create a function that determines if a customer is eligible for a discount. The customer gets a discount if they are over 60 years old or have a premium membership.
+
+3) Alarm System
+Design a function for a security system that triggers an alarm if either the door or the window is open, but not if both are closed.
+
+4) Safe Division
+Write a function to safely divide two numbers. Ensure that the function handles the case where division by zero occurs and provides an appropriate error message.
+
+5) JSON Parser
+Create a function that attempts to parse a string as JSON. If the string is invalid JSON, handle the error gracefully and return an error message.
+
+6) File Reader Simulation
+Write a function to simulate reading a file. Ensure that the function throws an error if the file path does not end with .txt, and handle this error properly.

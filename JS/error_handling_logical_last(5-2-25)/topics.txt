@@ -1,0 +1,8 @@
+Logical Operators
+- and or, not
+
+Error handling
+try catch
+
+CSS Intro
+Class based targeting for text color changing
