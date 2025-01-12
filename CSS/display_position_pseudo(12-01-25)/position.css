@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 70%;
+  height: 92vh;
+  position: relative;
+  background-color: orange !important;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.wa_icon {
+  width: 30px;
+  height: 30px;
+
+  position: fixed;
+  bottom: 13px;
+  left: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  gap: 10px;
+  background-color: yellow;
+}

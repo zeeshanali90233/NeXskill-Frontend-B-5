@@ -1,0 +1,17 @@
+Task 1: Class & Tag Targeting
+    How would you target all <h1> tags with red text?
+    How would you target elements with the .highlight class and set a yellow background?
+
+Task 2: Infile CSS for Button
+    How would you style a button with a blue background, white text, and rounded corners using inline CSS?
+
+Task 3: Color & Background Colors
+    How would you set the body background color to light gray, the <h1> text color to tomato, and the <p> text color to green?\
+
+Task 4: Box Model & Text Styling
+    How would you create a box with padding, border, margin, uppercase text, letter-spacing, and line-height?
+    How would you style the text inside the box with text transformation, letter-spacing, and line height?
+
+Task 5: Measurement Units & Text Effects
+    How would you set the <h2> font size to 3rem, margin to 50px, and apply a text shadow?
+    How would you set the <p> padding to 1em and line-height to 1.8?

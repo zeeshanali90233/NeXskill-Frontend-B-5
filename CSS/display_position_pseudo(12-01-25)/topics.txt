@@ -1,0 +1,17 @@
+
+-- Display Model
+    -> flex
+
+-- Position Models
+    -> static
+    -> relative
+    -> fixed
+    -> absolute
+    -> sticky
+
+--> Gemini LLM Chatbot
+    -> How to tune the AI for your particular use case using prompt engineering
+    -> How to use the chatbot in a real-world application
+
+-> Homework of Clones plus this chatbot would be a great plus
+

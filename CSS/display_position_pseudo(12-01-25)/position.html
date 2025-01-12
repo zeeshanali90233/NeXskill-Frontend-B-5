@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css" />
+  </head>
+  <body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam dicta
+    labore officiis distinctio neque ad, aut aliquid doloremque, odio illum,
+    animi itaque. Alias cupiditate facilis accusantium vel, ducimus eaque?
+    <nav class="navbar">
+      <div>Home</div>
+      <div>About</div>
+      <div>Contact Us</div>
+    </nav>
+    <div class="container">
+      <div class="box red"></div>
+      <div class="box blue"></div>
+      <div class="box green"></div>
+    </div>
+
+    <div>
+      <img
+        src="https://static-00.iconduck.com/assets.00/whatsapp-icon-2040x2048-8b5th74o.png"
+        alt="whatsapp"
+        class="wa_icon"
+      />
+    </div>
+
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus cumque nulla
+    nisi. Molestias nostrum aut ullam voluptate autem veritatis commodi suscipit
+    earum laudantium voluptas. Eaque sapiente ex maxime nisi porro dicta
+    cupiditate reiciendis sed sunt! Eum, minima aspernatur consequatur quis,
+    consequuntur maxime quae vel facilis error sapiente, numquam delectus
+    cupiditate quasi dicta adipisci asperiores molestias! Reprehenderit dolor ad
+    praesentium, eum nemo beatae unde? Necessitatibus aliquid porro est magnam.
+    Tenetur odit consequuntur, delectus sed earum temporibus possimus iusto
+    dolorem in ad vero corrupti? At officia animi laborum nesciunt optio labore
+    ut, ad aliquam harum placeat, totam repellendus cum amet maiores, vel nihil
+    repudiandae aliquid molestias sequi! Labore magni, tempore debitis officiis
+    esse sit quasi corporis dignissimos unde, iure error nisi voluptas non?
+    Deleniti labore earum dignissimos culpa tempore ea et repellat illum neque
+    soluta veniam cumque facilis nisi nulla voluptatum numquam, eveniet
+    architecto a magni, eos ad itaque enim laudantium accusantium. Officiis
+    commodi architecto maxime, perferendis possimus at doloribus sapiente vel,
+    sequi adipisci quam magnam expedita! Saepe, consequuntur nemo autem ab
+    dolores omnis est laborum alias veniam earum quos ad modi placeat, natus,
+    neque fugiat repellendus nisi quod voluptas. Modi, et labore! Consectetur
+    officia, eveniet reiciendis excepturi laudantium, officiis blanditiis porro
+    atque voluptas ut voluptatibus ad beatae maxime laboriosam cupiditate quod
+    tenetur sapiente fugit ipsum, earum delectus. Voluptates eos fuga incidunt
+    iste commodi at, maxime quis iure asperiores. Voluptatibus assumenda sequi
+    ad iusto doloribus minima magni. Aperiam obcaecati atque ut! Ratione
+    corporis repellendus laudantium quisquam quibusdam porro, enim officiis
+    accusantium officia quo alias impedit quia ut maiores in beatae inventore,
+    fugiat tempore voluptate harum aspernatur pariatur nostrum illo eligendi. Ex
+    quas vitae minus iure? Nam saepe excepturi, ut molestiae in sequi delectus
+    fuga facere atque architecto ipsum quam ullam. Architecto hic pariatur minus
+    quae suscipit iste veritatis. Voluptates ullam impedit expedita.
+
+    <div></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      async function getChatbotResponse() {
+        try {
+          const response = await axios.post(
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCogTbPTCyYCGht1zdOtgthp90SxgD7XIk`,
+            {
+              contents: [
+                {
+                  parts: [
+                    {
+                      text: "You are an expert programmer with knowledge in various tech stacks. Please answer the user's query to the best of your ability. If the query is not relevant to programming, kindly excuse the question.",
+                    },
+                    {
+                      text: "How to play cricket?",
+                    },
+                  ],
+                },
+              ],
+            }
+          );
+          console.log(
+            response.data["candidates"][0]["content"]["parts"][0]["text"]
+          );
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+      getChatbotResponse();
+    </script>
+  </body>
+</html>
