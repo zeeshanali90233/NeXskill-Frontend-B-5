@@ -1,0 +1,21 @@
+-- Grid
+
+-- Pseudo Classes
+ -- Hover
+ -- Active
+    -- element when pressed
+ -- Link
+  -- Not Visited
+ -- Visited
+  -- Clicked
+ -- Focus
+
+-- Pseudo Elements
+ -- first line
+ -- first letter
+
+-- after 
+-- before
+
+-- Media Queries
+    Orientations
