@@ -66,23 +66,54 @@
     <script>
       async function getChatbotResponse() {
         try {
-          const response = await axios.post(
-            `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=<GEMINI API KEY>`,
-            {
-              contents: [
-                {
-                  parts: [
-                    {
-                      text: "You are an expert programmer with knowledge in various tech stacks. Please answer the user's query to the best of your ability. If the query is not relevant to programming, kindly excuse the question.",
-                    },
-                    {
-                      text: "How to play cricket?",
-                    },
-                  ],
-                },
-              ],
-            }
-          );
+          const apiKey = "Radon...."; // Replace with your actual API key.
+          const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+
+          const requestData = {
+            contents: [
+              {
+                parts: [
+                  {
+                    text: "You are an expert order taker. Understand user behavior and handle structured tasks.",
+                  },
+                  {
+                    text: `
+              Functions: 
+              name: GET_WEATHER
+              parameters: {
+                cityName: string
+              }
+              `,
+                  },
+                  {
+                    text: `
+              User Question: I want to go to Lahore , What is the weather there
+              `,
+                  },
+                  {
+                    text: `
+              Return Response Format: 
+              {
+                message: string,
+                function: {
+                  name: string,
+                  parameters: {
+                    cityName: string
+                  }
+                }
+              }
+              `,
+                  },
+                ],
+              },
+            ],
+          };
+
+          const headers = {
+            "Content-Type": "application/json",
+          };
+
+          const response = await axios.post(apiUrl, requestData, { headers });
           console.log(
             response.data["candidates"][0]["content"]["parts"][0]["text"]
           );
