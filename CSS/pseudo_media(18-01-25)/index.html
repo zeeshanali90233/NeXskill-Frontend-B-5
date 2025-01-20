@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div class="description">sdkjfhdskhsa asd as</div> -->
+    <div class="container">
+      <div class="box sidebar">
+        Sidebar <button class="btn-cross">Close</button>
+      </div>
+      <div class="box navbar">navbar <button class="btn">New</button></div>
+      <div class="box main_content">
+        Main xk,fhkdslklkfj
+        <div>sdlkfjsdlkfj</div>
+        Content
+      </div>
+      <div class="box footer">Footer</div>
+    </div>
+
+    <script>
+      document.querySelector(".btn").addEventListener("click", () => {
+        document.querySelector(".sidebar").classList.toggle("show");
+      });
+      document.querySelector(".btn-cross").addEventListener("click", () => {
+        document.querySelector(".sidebar").classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

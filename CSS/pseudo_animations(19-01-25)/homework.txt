@@ -1,0 +1,28 @@
+1) Linkedin , GIthub Optimized
+
+    1.1) Publish it on Medium Blog site: medium.com
+    also take help from google trends, add ss if needed
+
+    1) event loop Mechanism in JS 
+    2) Current AI Agents Trend and What are they 
+    3) How to clone Youtube/Spotify/What
+    4) What is REST API 
+
+    Make an Linkedin Post for Eash Article, Copy the 
+    crux of article after summarizing in post description
+    , Add Relavant SEO Tags
+    #eventloop #js
+
+    Also mention me there in your post,
+    @zeeshanali
+
+Also Optimize your github , add github url to your Linkedin
+as a button 
+
+Also Add your projects of this course on Linkedin
+in projects sections
+
+
+2) FInal Project Reminder only 7 days left
+Try to use today topics in your final project 
+

@@ -1,0 +1,7 @@
+1) Style properly your weather app
+
+8) Media Queries (Orientation)
+    Task:
+    Add an image and some text to the page.
+    Use a media query to change the text color and position when the screen orientation is landscape versus portrait.
+    Adjust the font size of the text to be larger in landscape mode.

@@ -1,0 +1,21 @@
+-- Pseudo Classes
+ -- Single Colon
+ -- Hover
+ -- Active
+    -- element when pressed
+ -- Link
+  -- Not Visited
+ -- Visited
+  -- Clicked
+ -- Focus
+
+-- Pseudo Elements
+ -- Double Colon
+ 
+ -- first line
+ -- first letter
+
+-- after 
+-- before
+
+-- animations
